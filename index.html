@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  <link rel="stylesheet" href="./wrong-path/fonts.css" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
   <link rel="stylesheet" href="./styles/global.css" />
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
 <body>
-  <header class="header-wrong">
+  <header class="header">
     <nav class="header__menu">
       <ul class="header__links-list">
-        <li class="header__links-list-item_no-bullit">
+        <li class="header__links-list-item header__links-list-item_no-bullit">
           <a class="header__link header__link_active" href="#">главная</a>
         </li>
         <li class="header__links-list-item">
-          <a class="header__link" href="#">посмотреть лоты
+          <a class="header__link" href="#">посмотреть лоты</a>
         </li>
         <li class="header__links-list-item">
           <a class="header__link" href="#">об аукционе</a>
@@ -27,11 +27,11 @@
       </ul>
     </nav>
     <a class="header__logo">
-      <img class="header__logo-image" src="./images/logo-black.svg" />
+      <img class="header__logo-image" src="./images/logo-black.svg" alt="ОНО ТЕБЕ НАДО" />
     </a>
     <address class="address header__address">
-      <a href="tel:+70000000">+9 999 555 5555 123</a>
-      <a href="mailto:mail@example.com">info@sobaka</a>
+      <a href="tel:+70000000">+9 999 555 5555</a>
+      <a href="mailto:mail@example.com">info@sobaka.ge</a>
       <p class="header__links-list-item_no-bullit">
         наб. Принсенграхт 263-
         265, Амстердам
@@ -40,21 +40,20 @@
   </header>
   <main>
     <section class="cover">
-      <div class="overlay">
-        <div class="cover__wrapper">
-          <h1 class="cover__title">
-            <span class="aligned-text">о<span class="letter-spacing-extended">н</span><span
-                class="no-letter-spacing">о</span></span>
-            <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">б</span><span
-                class="no-letter-spacing">е</span></span><span class="aligned-text aligned-text_right"><span
-                class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
-          </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">
-              Аукцион вещей, в которые никто не верил
-            </p>
-            <button class="bet-button" type="submit">Сделать ставку</button>
-          </div>
+      <div class="overlay"></div>
+      <div class="cover__wrapper">
+        <h1 class="cover__title">
+          <span class="aligned-text">о<span class="letter-spacing-extended">н</span><span
+              class="no-letter-spacing">о</span></span>
+          <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">б</span><span
+              class="no-letter-spacing">е</span></span><span class="aligned-text aligned-text_right"><span
+              class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </div>
     </section>
@@ -77,7 +76,7 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link" href="#" id="duplicate">
+          <a class="card-link" href="#">
             <article class="card card_type_book">
               <div class="overlay"></div>
               <h3 class="card__title">
@@ -95,7 +94,7 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link" href="#" id="duplicate">
+          <a class="card-link" href="#">
             <article class="card card_type_picture">
               <div class="overlay"></div>
               <h3 class="card__title">
@@ -111,12 +110,12 @@
           </a>
         </li>
       </ul>
-      <a class="lots__look-more-link" href="mailto:example@mail.com">посмотреть больше</a>
+      <a class="lots__look-more-link" href="#">посмотреть больше</a>
     </section>
     <section class="about">
       <div class="about__column">
         <a class="about__logo" href="#">
-          <img class="about__logo-image" src="./wrong-path/logo-white.svg" alt="логотип" />
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="логотип" />
         </a>
         <div class="about__article">
           <h2 class="about__title">Об аукционе</h2>
@@ -136,6 +135,7 @@
               лотов невозможно представить современную культуру. Когда в эти
               вещи не верил никто, продолжали верить их создатели. И сейчас
               эти лоты стали культовыми.
+            </p>
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@
       <ul class="footer__social-list">
         <li class="footer__social-item">
           <a class="footer__social-link" href="#">
-            <img class="footer__social-icon" src="./images/youtube.svg" alt="ютуб" />
+            <img class="footer__social-icon" src="./images/yt.svg" alt="ютуб" />
           </a>
         </li>
         <li class="footer__social-item">
@@ -178,7 +178,7 @@
         </li>
         <li class="footer__social-item">
           <a class="footer__social-link" href="#">
-            <img class="footer__social-icon" src="./images/pinterest.svg" alt="пинтерест">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="пинтерест" />
           </a>
         </li>
       </ul>
